@@ -1,15 +1,37 @@
 body{
-    background-color: #eaeaea;
+    background-color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
 .wrapper{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 80px;
+    padding-right: 200px;
     max-width: 1170px;
     margin: 0 auto;
     position: relative;
+   
 
 }
+.nav>li>a{
+    text-decoration: none;
+}
+
+
+
+.header-logo {
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    top: 40px;
+  }
+  .header-logo__name {
+    font-size: 25px;
+    line-height: 6px;
+    letter-spacing: -0.5px;
+    color: #494848;
+    font-family: 'Lato-Bold-A';
+    text-align: left;
+    text-transform: uppercase;
+  }
 .center{
     text-align: center;
 }
@@ -17,8 +39,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 36px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   
 }
 .nav{
     display: flex;
@@ -55,19 +78,20 @@ body{
 }
 
 .banner{
-    background-image: url(../image/banner\,png.png);
+    background-image: url(../image/sec2.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center center;
     color: #ffffff;
-    padding-top: 260px;
-    padding-bottom: 285px;
+    padding-top: 80px;
+    padding-bottom: 205px;
 
 }
 .pizza{
     position: absolute;
-    right: 0;
-    top: -230px;
+    padding-left: 700px;
+    padding-top: 400px;
+    top: -280px;
 }
 .title{
     font-size:50px;
@@ -243,7 +267,6 @@ body{
 .box-text{
     border-right: 1px solid #eaeaea;
     padding-right: 55px;
-    flex-basis: 
 }
 .box-item:last-child .box-text{
     border-right: none ;
